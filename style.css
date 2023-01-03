@@ -1,31 +1,48 @@
-/*header*/
-header {
-    background-color:rgb(198, 244, 244);
-    margin-bottom:0px;
-}
-
-button.buttonCity {
-    color: azure;
-    margin: 15px;
-}
-
-h1 {
-    color: white;
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .searchArea {
+    padding: 20px;
+  }
+  
+  .input-field {
+    margin: 0;
+  }
+  
+  .searchBtn {
+    margin-top: 10px;
+  }
+  
+  .textInput input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
     padding: 5px;
-    background-color: rgb(39, 33, 33);
-    font-family: 'Times New Roman', Times, serif;
-}
-
-h3{
-    background-color: lightskyblue;
-    width: 100px;
-}
-
-
-h6, h2,h3,h4,h5,p {
-    font-family:'Times New Roman', Times, serif
-}
-
-li {
-    padding-left: 10px;
-}
+  }
+  
+  .cityList {
+    margin: 20px 0;
+  }
+  
+  .clearBtn {
+    margin-top: 10px;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .fiveDayForecast {
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
